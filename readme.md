@@ -331,9 +331,9 @@ Returns **void**
 
 ## containsSemanticBlockMarkup
 
-Check to see if we have anything like <p> <blockquote> <h1>... to create
+Check to see if we have anything like `<p>` `<blockquote>` `<h1>`... to create
 block tags from. If we do, we can use those and ignore <div> tags. If we
-don't, we can treat <div> tags as meaningful (unstyled) blocks.
+don't, we can treat `<div>` tags as meaningful (unstyled) blocks.
 
 **Parameters**
 
@@ -1025,9 +1025,9 @@ Placeholder elements for empty text content.
 
 What is this `data-text` attribute, anyway? It turns out that we need to
 put an attribute on the lowest-level text node in order to preserve correct
-spellcheck handling. If the <span> is naked, Chrome and Safari may do
+spellcheck handling. If the `<span>` is naked, Chrome and Safari may do
 bizarre things to do the DOM -- split text nodes, create extra spans, etc.
-If the <span> has an attribute, this appears not to happen.
+If the `<span>` has an attribute, this appears not to happen.
 See [http://jsfiddle.net/9khdavod/][198] for the failure case, and
 [http://jsfiddle.net/7pg143f7/][199] for the fixed case.
 
@@ -2010,6 +2010,24 @@ the subsequent range.
 
 Returns **[Array][187]&lt;[DraftRange][209]>** 
 
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
 ## getSelectionOffsetKeyForNode
 
 Get offset key from a node or it's child nodes. Return the first offset key
@@ -2020,6 +2038,15 @@ found on the DOM tree of given node.
 -   `node` **[Node][206]** 
 
 Returns **[string][185]?** 
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
 
 ## getTextAfterNearestEntity
 
@@ -2032,6 +2059,15 @@ offset. This allows us to narrow down search areas for regex matching.
 -   `offset` **[number][186]** 
 
 Returns **[string][185]** 
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
 
 ## getTextContentFromFiles
 
@@ -2055,6 +2091,24 @@ todo isaac: Do work to turn html/rtf into a content fragment.
 
 Returns **void** 
 
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
 ## getVisibleSelectionRect
 
 Return the bounding ClientRect for the visible DOM selection, if any.
@@ -2067,6 +2121,15 @@ temporarily invalid, return null.
 
 Returns **FakeClientRect?** 
 
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
 ## InlineStyleRange
 
 A plain object representation of an inline style range.
@@ -2078,6 +2141,15 @@ Type: {style: [string][185], offset: [number][186], length: [number][186]}
 -   `style` **[string][185]** 
 -   `offset` **[number][186]** 
 -   `length` **[number][186]** 
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
 
 ## updateHead
 
@@ -2105,6 +2177,15 @@ fragment block.
 
 Returns **BlockNodeRecord** 
 
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
 ## insertIntoList
 
 Maintain persistence for target list when appending and prepending.
@@ -2117,6 +2198,24 @@ Maintain persistence for target list when appending and prepending.
 
 Returns **List&lt;T>** 
 
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
 ## isEventHandled
 
 Utility method for determining whether or not the value returned
@@ -2127,6 +2226,33 @@ from a handler indicates that it was handled.
 -   `value` **[DraftHandleValue][210]** 
 
 Returns **[boolean][189]** 
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
 
 ## isCtrlKeyCommand
 
@@ -2140,6 +2266,24 @@ key modifier, which should not be handled by this set of key bindings.
 
 Returns **[boolean][189]** 
 
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
 ## keyCommandBackspaceWord
 
 Delete the word that is left of the cursor, as well as any spaces or
@@ -2150,6 +2294,15 @@ punctuation after the word.
 -   `editorState` **EditorState** 
 
 Returns **EditorState** 
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
 
 ## keyCommandDeleteWord
 
@@ -2162,6 +2315,24 @@ punctuation before the word.
 
 Returns **EditorState** 
 
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
 ## keyCommandMoveSelectionToEndOfBlock
 
 See comment for `moveSelectionToStartOfBlock`.
@@ -2171,6 +2342,15 @@ See comment for `moveSelectionToStartOfBlock`.
 -   `editorState` **EditorState** 
 
 Returns **EditorState** 
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
 
 ## keyCommandMoveSelectionToStartOfBlock
 
@@ -2184,6 +2364,15 @@ moving the cursor. Other browsers are able to move the cursor natively.
 
 Returns **EditorState** 
 
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
 ## keyCommandPlainBackspace
 
 Remove the selected range. If the cursor is collapsed, remove the preceding
@@ -2195,6 +2384,15 @@ will remove a surrogate pair properly as well.
 -   `editorState` **EditorState** 
 
 Returns **EditorState** 
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
 
 ## keyCommandPlainDelete
 
@@ -2208,6 +2406,15 @@ will remove a surrogate pair properly as well.
 
 Returns **EditorState** 
 
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
 ## keyCommandTransposeCharacters
 
 Transpose the characters on either side of a collapsed cursor, or
@@ -2219,6 +2426,42 @@ characters.
 -   `editorState` **EditorState** 
 
 Returns **EditorState** 
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
 
 ## moveSelectionBackward
 
@@ -2236,6 +2479,15 @@ as having length 2.
 
 Returns **SelectionState** 
 
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
 ## moveSelectionForward
 
 Given a collapsed selection, move the focus `maxDistance` forward within
@@ -2251,6 +2503,33 @@ as having length 2.
 -   `maxDistance` **[number][186]** 
 
 Returns **SelectionState** 
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
 
 ## RawDraftContentState
 
@@ -2269,6 +2548,15 @@ Type: {blocks: [Array][187]&lt;[RawDraftContentBlock][191]>, entityMap: {}}
 -   `blocks` **[Array][187]&lt;[RawDraftContentBlock][191]>** 
 -   `entityMap` **{}** 
 
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
 ## RawDraftEntity
 
 A plain object representation of an EntityInstance.
@@ -2280,6 +2568,24 @@ Type: {type: DraftEntityType, mutability: [DraftEntityMutability][200], data: {}
 -   `type` **DraftEntityType** 
 -   `mutability` **[DraftEntityMutability][200]** 
 -   `data` **{}?** 
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
 
 ## getAncestorsKeys
 
@@ -2318,6 +2624,15 @@ head and tail of the character list.
 
 Returns **List&lt;CharacterMetadata>** 
 
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
 ## removeTextWithStrategy
 
 For a collapsed selection state, remove text based on the specified strategy.
@@ -2330,6 +2645,15 @@ If the selection state is not collapsed, remove the entire selected range.
 -   `direction` **[DraftRemovalDirection][208]** 
 
 Returns **ContentState** 
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
 
 ## onBackspace
 
@@ -2368,10 +2692,46 @@ block or selection does not meet that criteria.
 
 Returns **ContentState?** 
 
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
 ## SecondaryClipboard
 
 Some systems offer a "secondary" clipboard to allow quick internal cut
 and paste behavior. For instance, Ctrl+K (cut) and Ctrl+Y (paste).
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
 
 ## hasEdgeWithin
 
@@ -2385,6 +2745,15 @@ SelectionState.
 -   `end` **[number][186]** 
 
 Returns **[boolean][189]** 
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
 
 ## setDraftEditorSelection
 
@@ -2418,6 +2787,33 @@ Extend selection towards focus point.
 -   `selectionState` **SelectionState** 
 
 Returns **void** 
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
+
+## 
+
+Copyright (c) 2013-present, Facebook, Inc.
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. An additional grant
+of patent rights can be found in the PATENTS file in the same directory.
 
 [1]: #black_list_props
 
